@@ -5,6 +5,7 @@ function filterArray(numbers, value) {
       total.push(number);
     }
   }
+
   return total;
 }
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
